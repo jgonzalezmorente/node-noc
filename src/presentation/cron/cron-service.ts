@@ -1,6 +1,6 @@
 import { CronJob } from 'cron';
 
-type CronTime = string | Date;
+type CronTime = string | Date;
 type OnTick = () => void;
 
 export class CronService {
